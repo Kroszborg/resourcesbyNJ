@@ -9,17 +9,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
+        .button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fcfdff;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.button:active {
+  background-color: #eee;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+}
         @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
 
         * {
-          font-family: 'League Spartan';
+          font-family: 'League Spartan',serif;
         }
+        table {
+  font-family: arial, sans-serif;
+  font-size: large;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F5E4CC;
+}
     </style>
 </head>
 <body>
     <!-- header -->
     <section class="header" id="header">
-        <a href="index.html" class="logo"> threepointonefour </a>
+        <a href="index.html" class="logo" style="font-weight: 1000;"> ResourcesbyNJ </a>
         <nav class="navbar">
            <div id="close-navbar" class="fas fa-times"></div>
            <a href="index.html">home</a>
@@ -47,6 +85,63 @@
     <div class="box-container">
 
         
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Summary</th>
+    <th>Links</th>
+  </tr>
+  <tr>
+    <td>Khan Academy</td>
+    <td>Khan Academy offers a wide range of free educational resources covering subjects like math, science, economics, humanities, and more. Their mission is to provide a free, world-class education for anyone, anywhere.</td>
+    <td><a href="https://www.khanacademy.org" target="_blank" class="button">Khan Academy</a></td>
+  </tr>
+  <tr>
+    <td>GitHub </td>
+    <td>The GitHub Student Developer Pack is an assortment of free tools, resources, and services that GitHub offers in association with different partners for students.</td>
+    <td><a href="https://education.github.com/pack" target="_blank" class="button">GitHub Student Developer Pack</a></td>
+  </tr>
+  <tr>
+    <td>Google</td>
+    <td>Provides free courses and tutorials on digital skills such as online marketing, social media, data analytics, and entrepreneurship.</td>
+    <td><a href="https://grow.google/intl/uk/" target="_blank" class="button">Google Digital Garage</a></td>
+  </tr>
+  <tr>
+    <td>Code.org</td>
+    <td>Code.org offers free coding and computer science resources, including coding tutorials, games, and curriculum materials designed to make computer science education accessible to all students, particularly girls and underrepresented minorities.</td>
+    <td><a href="https://code.org" target="_blank" class="button">Code.org</a></td>
+  </tr>
+  <tr>
+    <td>Coursera</td>
+    <td>Provides access to free online courses from top universities and institutions worldwide. Courses cover diverse topics such as business, technology, humanities, and more.</td>
+    <td><a href="https://www.coursera.org" target="_blank" class="button">Coursera</a></td>
+  </tr>
+  <tr>
+    <td>edX</td>
+    <td> Offers free online courses from universities and institutions worldwide, covering subjects like computer science, language, data science, and more.</td>
+    <td><a href="https://www.edx.org" target="_blank" class="button">edX</a></td>
+  </tr>
+  <tr>
+    <td>Codecademy</td>
+    <td>Provides free coding courses covering programming languages like Python, JavaScript, HTML/CSS, and more.</td>
+    <td><a href="https://www.codecademy.com" target="_blank" class="button">Codecademy</a></td>
+  </tr>
+  <tr>
+    <td>Duolingo</td>
+    <td>Offers free language learning courses in dozens of languages, with interactive lessons and exercises.</td>
+    <td><a href="https://www.duolingo.com" target="_blank" class="button">Duolingo</a></td>
+  </tr>
+  <tr>
+    <td>TED-Ed</td>
+    <td> Provides free educational videos and lessons on a wide range of topics, including science, technology, art, history, and philosophy.</td>
+    <td><a href="https://ed.ted.com" target="_blank" class="button">TED-Ed</a></td>
+  </tr>
+  <tr>
+    <td>LibriVox</td>
+    <td>Offers free audiobooks of public domain literature, allowing users to access classic books and literary works in audio format.</td>
+    <td><a href="https://librivox.org" target="_blank" class="button">LibriVox</a></td>
+  </tr>
+</table>
 
     </div>
     </section>
