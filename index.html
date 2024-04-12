@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResourcesbyNJ</title>
+    <link href="images/rnj.svg" rel="icon" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+        * {
+          font-family: 'League Spartan',serif;
+        }
+
+        .home {
+          height: 100vh;
+          background-image: url('images/bg_1.jpg');
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          text-align: left;
+        }
+
+        .home .content {
+          transform: translateY(30%);
+          animation: fadeIn 1s ease-out;
+          animation-delay: 1s;
+        }
+
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+            transform: translateY(50%);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(30%);
+          }
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <section class="header" id="header">
+        <a href="index.html" class="logo" style="font-weight: 1000;"> ResourcesbyNJ </a>
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">home </a>
+            <a href="about.html">about us </a>
+            <div class="button-container">
+                <a href="resource.html">
+                    <button class="clr-1">
+                        <span> Resources </span><i></i>
+                    </button>
+                </a>
+            </div>
+            <!-- <a href="#"> Donate </a> -->
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- header -->
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="content">
+            <h2><p style="color: #f5ecdf;">Join a community of learners to revolutionize the way we learn.</p></h2>
+            <h3>Transforming, <br> Education, <br>Together</h3>
+            <div class="content">
+                <div class="button-container">
+                <a href="resource.html">
+                    <button class="clr-1">
+                        <span> Resources </span><i></i>
+                    </button>
+                </a>
+                </div>
+            </div>
+     </section>
+    <!-- home -->
+    <!-- about us -->
+    <section class="about" id="about" style="background-color: #f5ecdf;">
+        <h1 class="heading" style="color: #8d143c;font-weight: 1000;">Welcome to ResourcesbyNJ</h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title" style="color: #000080; text-align: center;">Our Story</h3>
+                <p style=" color: #8d143c; font-size:250%; font-weight: 500; text-align: center;">At ResourcesbyNJ, we started with a simple idea: to make education accessible to everyone. We believe that education is a fundamental right and should not be limited by financial barriers.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="content">
+                <p style=" color: #8d143c; font-size:250%; font-weight: 500; text-align: center;">These resources play a crucial role in empowering individuals, regardless of gender or socio-economic background, to pursue their educational aspirations and contribute to community development by providing access to quality education, skills training, and learning opportunities.</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="about" id="about" style="background-color: #8d143c;">
+        <section class="services" id="services" style="background-color: #f5ecdf;">
+        <h3 class="heading" style="color: #000080">Our Goal</h3>
+        <div class="row">
+          <div class="content">
+            <p
+              style="
+                position: relative;
+                font-weight: 500;
+                color: #000080;
+                text-align: center;
+              ">
+              Our end goal is to provide free access to quality resources regardless of gender or socio-economic background, to pursue their educational aspirations and contribute to community development by providing access to quality education, skills training, and learning opportunities.</p><br>
+             
+            <p style="text-align: center;">
+                <a href="about.html" style="text-align: center;">
+                    <button class="clr-1">
+                        <span> Learn More </span><i></i>
+                    </button>                    
+                </a>
+            </div>
+            </div></p>
+            </div>
+            </div>
+        </div>
+      </section>
+    </section>
+    <!-- about us end -->
+    <!-- footer -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3> Get In Touch </h3>
+                <div class="share">
+<!--                    <a href="" class="fab fa-facebook-f"></a>-->
+<!--                    <a href="#" class="fab fa-twitter"></a>-->
+                    <a href="https://www.instagram.com/resourcesbynj" class="fab fa-instagram" target="_blank"></a>
+<!--                    <a href="#" class="fab fa-linkedin"></a>-->
+                </div>
+            </div>
+            <div class="box">
+                <h3>contact us</h3>
+                <p>+91 9760672385</p>
+                <a href="mailto:resourcesbynj@gmail.com" class="link">resourcesbynj@gmail.com</a>
+            </div>
+            <div class="box">
+                <h3>location</h3>
+                <p>
+                    MANIPAL UNIVERSITY JAIPUR, RJ <br>
+                    INDIA</p>
+            </div>
+        </div>
+        <div class="credit"> © 2024 <span>  ResourcesbyNJ</span></div>
+    </section>
+    <!-- footer end -->
+    <script src="js/script.js"></script>
+
+ </body>
+</html>
