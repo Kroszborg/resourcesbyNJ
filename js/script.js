@@ -31,4 +31,5 @@ window.addEventListener("scroll", function() {
   }
   
   lastScrollTop = currentScrollTop;
-});
+}
+);
